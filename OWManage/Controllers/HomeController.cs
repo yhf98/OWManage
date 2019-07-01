@@ -12,15 +12,21 @@ namespace OWManage.Controllers
         {
             return View();
         }
-
-        public ActionResult About()
+        /// <summary>
+        /// 登录
+        /// </summary>
+        /// <returns></returns>
+        public ActionResult login()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Your contact page.";
 
             return View();
         }
-
-        public ActionResult Contact()
+        /// <summary>
+        /// 注册
+        /// </summary>
+        /// <returns></returns>
+        public ActionResult register()
         {
             ViewBag.Message = "Your contact page.";
 
