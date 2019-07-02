@@ -32,5 +32,12 @@ namespace OWManage.Controllers
 
             return View();
         }
+        public ActionResult aaaa()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+
     }
 }

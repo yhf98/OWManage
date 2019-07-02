@@ -493,6 +493,7 @@
     <Content Include="wwwroot\comm\font\dashboard.eot" />
     <Content Include="wwwroot\comm\font\dashboard.ttf" />
     <Content Include="wwwroot\comm\font\dashboard.woff" />
+    <Content Include="Views\Home\aaaa.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
